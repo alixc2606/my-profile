@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Background and Text Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+/* Centering the Header */
+header {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #222;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headings Styling */
+h1, h2, h3, h4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222;
+    border-bottom: 2px solid #111;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Ensures links appear below headers */
+h1 + a, h2 + a, h3 + a, h4 + a {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Sleek Minimalist Divs */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Box Styling for Each Section */
+.item {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    border-left: 4px solid #111;
+}
+
+.item:hover {
+    transform: scale(1.02);
+}
+
+/* Profile Image Styling */
+.profile-img {
+    display: block;
+    width: 120px; /* Smaller size */
+    height: 120px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Round shape */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    border: 3px solid #222; /* Border to define the image */
+    margin: 20px auto; /* Centers the image */
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Enhanced Paragraph Styling */
+.paragraph {
+    font-size: 1.1em;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-left: 3px solid #222;
+    background-color: #fafafa;
+    box-shadow: inset 3px 0px 0px #222;
+}
+/* Bold & Underlined Styling for Specific Headings */
+h3, h4 {
+    font-weight: bold;
+    text-decoration: underline;}
+
